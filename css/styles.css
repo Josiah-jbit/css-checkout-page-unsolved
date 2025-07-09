@@ -62,7 +62,7 @@ i {
 /* 🔴 CSS Syntax Error here 👇 */
 .box {
   background: linear-gradient(#17192c, #1a1c30),
-  border: 1px solid #2c3044;
+  border: 1px (solid #2c3044)
   padding 30px
   width 100%
   border-radius 16px
@@ -130,15 +130,15 @@ i {
 .option-item-name .hint,
 .review-author-name .hint,
 .form-input-group label { 
-  font-size: 12px
+  font-size: 12px;
   color: #b6b8c0;
   }
 
 
 /* 🔴 CSS Syntax Error here 👇 */
 .option-item-selected {
-  display: flex
-  align-items: center
+  display: flex;
+  align-items: center;
   gap:block 16px ;
 }
 
@@ -379,5 +379,5 @@ footer ul a {
 
 /* 🔴 CSS property name Error here 👇 */
 footer ul li span a {
-  color: rgb(118, 82, 82);
+  color: rgb(218, 82, 82);
 }

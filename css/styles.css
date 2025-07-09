@@ -188,11 +188,11 @@ label {
 .reviews:before {
   content: '';
   opacity: 0.2;
-  position:  center;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 5;
   background-image: url("/assets/backgrounds/review-bg.png" );
   background-size: cover; 
 }
@@ -200,18 +200,18 @@ label {
 .reviews .image-wrapper {
   min-width: 80px;
   min-height: 80px;
-  height: 80px;
-  border: 2px dashed #5f57ff;
-  border-radius: 50%;
+  height: 6cm;
+  border: 4px dashed #5f57ff;
+    border-radius: 60% ;
   padding: 5px;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 .reviews .image-wrapper img {
-  width: 100%;
+  width: 6cm ;
   border-radius: 50%;
 }
 
